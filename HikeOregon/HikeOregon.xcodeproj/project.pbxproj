@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086220FE1E46586E008B8036 /* Tappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086220FD1E46586E008B8036 /* Tappable.swift */; };
+		086221011E465FBF008B8036 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086221001E465FBF008B8036 /* TestViewController.swift */; };
+		086221041E4662B3008B8036 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086221031E4662B3008B8036 /* PopAnimator.swift */; };
+		086221061E466B7A008B8036 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086221051E466B7A008B8036 /* BackButton.swift */; };
+		086221091E466CA9008B8036 /* UIView+HikeOregon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086221081E466CA9008B8036 /* UIView+HikeOregon.swift */; };
+		0862210B1E46706B008B8036 /* HOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862210A1E46706B008B8036 /* HOButton.swift */; };
+		087A2BC51E4650CA00FBB205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A2BC41E4650CA00FBB205 /* AppDelegate.swift */; };
+		087A2BC71E4650CA00FBB205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A2BC61E4650CA00FBB205 /* ViewController.swift */; };
+		087A2BCA1E4650CA00FBB205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A2BC81E4650CA00FBB205 /* Main.storyboard */; };
+		087A2BCC1E4650CA00FBB205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087A2BCB1E4650CA00FBB205 /* Assets.xcassets */; };
+		087A2BCF1E4650CA00FBB205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A2BCD1E4650CA00FBB205 /* LaunchScreen.storyboard */; };
+		087A2BDA1E4650CB00FBB205 /* HikeOregonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A2BD91E4650CB00FBB205 /* HikeOregonTests.swift */; };
+		087A2BE51E4650CB00FBB205 /* HikeOregonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A2BE41E4650CB00FBB205 /* HikeOregonUITests.swift */; };
+		087A2BF41E46513F00FBB205 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A2BF31E46513F00FBB205 /* MenuButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087A2BD61E4650CB00FBB205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087A2BB91E4650CA00FBB205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087A2BC01E4650CA00FBB205;
+			remoteInfo = HikeOregon;
+		};
+		087A2BE11E4650CB00FBB205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087A2BB91E4650CA00FBB205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087A2BC01E4650CA00FBB205;
+			remoteInfo = HikeOregon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086220FD1E46586E008B8036 /* Tappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tappable.swift; path = Protocols/Tappable.swift; sourceTree = "<group>"; };
+		086221001E465FBF008B8036 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = Controllers/TestViewController.swift; sourceTree = "<group>"; };
+		086221031E4662B3008B8036 /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopAnimator.swift; path = Animators/PopAnimator.swift; sourceTree = "<group>"; };
+		086221051E466B7A008B8036 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = Views/BackButton.swift; sourceTree = "<group>"; };
+		086221081E466CA9008B8036 /* UIView+HikeOregon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+HikeOregon.swift"; path = "Extensions/UIView+HikeOregon.swift"; sourceTree = "<group>"; };
+		0862210A1E46706B008B8036 /* HOButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HOButton.swift; path = Views/HOButton.swift; sourceTree = "<group>"; };
+		087A2BC11E4650CA00FBB205 /* HikeOregon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeOregon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A2BC41E4650CA00FBB205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		087A2BC61E4650CA00FBB205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		087A2BC91E4650CA00FBB205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087A2BCB1E4650CA00FBB205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087A2BCE1E4650CA00FBB205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		087A2BD01E4650CA00FBB205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087A2BD51E4650CB00FBB205 /* HikeOregonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeOregonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A2BD91E4650CB00FBB205 /* HikeOregonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeOregonTests.swift; sourceTree = "<group>"; };
+		087A2BDB1E4650CB00FBB205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087A2BE01E4650CB00FBB205 /* HikeOregonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeOregonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A2BE41E4650CB00FBB205 /* HikeOregonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeOregonUITests.swift; sourceTree = "<group>"; };
+		087A2BE61E4650CB00FBB205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087A2BF31E46513F00FBB205 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuButton.swift; path = Views/MenuButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087A2BBE1E4650CA00FBB205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BD21E4650CB00FBB205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BDD1E4650CB00FBB205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086220FC1E465852008B8036 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				086220FD1E46586E008B8036 /* Tappable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		086220FF1E465F9D008B8036 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				086221001E465FBF008B8036 /* TestViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		086221021E466291008B8036 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				086221031E4662B3008B8036 /* PopAnimator.swift */,
+			);
+			name = Animators;
+			sourceTree = "<group>";
+		};
+		086221071E466C61008B8036 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				086221081E466CA9008B8036 /* UIView+HikeOregon.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		087A2BB81E4650CA00FBB205 = {
+			isa = PBXGroup;
+			children = (
+				087A2BC31E4650CA00FBB205 /* HikeOregon */,
+				087A2BD81E4650CB00FBB205 /* HikeOregonTests */,
+				087A2BE31E4650CB00FBB205 /* HikeOregonUITests */,
+				087A2BC21E4650CA00FBB205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		087A2BC21E4650CA00FBB205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087A2BC11E4650CA00FBB205 /* HikeOregon.app */,
+				087A2BD51E4650CB00FBB205 /* HikeOregonTests.xctest */,
+				087A2BE01E4650CB00FBB205 /* HikeOregonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087A2BC31E4650CA00FBB205 /* HikeOregon */ = {
+			isa = PBXGroup;
+			children = (
+				086221071E466C61008B8036 /* Extensions */,
+				086221021E466291008B8036 /* Animators */,
+				086220FF1E465F9D008B8036 /* Controllers */,
+				086220FC1E465852008B8036 /* Protocols */,
+				087A2BF21E4650EF00FBB205 /* Views */,
+				087A2BC41E4650CA00FBB205 /* AppDelegate.swift */,
+				087A2BC61E4650CA00FBB205 /* ViewController.swift */,
+				087A2BC81E4650CA00FBB205 /* Main.storyboard */,
+				087A2BCB1E4650CA00FBB205 /* Assets.xcassets */,
+				087A2BCD1E4650CA00FBB205 /* LaunchScreen.storyboard */,
+				087A2BD01E4650CA00FBB205 /* Info.plist */,
+			);
+			path = HikeOregon;
+			sourceTree = "<group>";
+		};
+		087A2BD81E4650CB00FBB205 /* HikeOregonTests */ = {
+			isa = PBXGroup;
+			children = (
+				087A2BD91E4650CB00FBB205 /* HikeOregonTests.swift */,
+				087A2BDB1E4650CB00FBB205 /* Info.plist */,
+			);
+			path = HikeOregonTests;
+			sourceTree = "<group>";
+		};
+		087A2BE31E4650CB00FBB205 /* HikeOregonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				087A2BE41E4650CB00FBB205 /* HikeOregonUITests.swift */,
+				087A2BE61E4650CB00FBB205 /* Info.plist */,
+			);
+			path = HikeOregonUITests;
+			sourceTree = "<group>";
+		};
+		087A2BF21E4650EF00FBB205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				087A2BF31E46513F00FBB205 /* MenuButton.swift */,
+				086221051E466B7A008B8036 /* BackButton.swift */,
+				0862210A1E46706B008B8036 /* HOButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087A2BC01E4650CA00FBB205 /* HikeOregon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087A2BE91E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregon" */;
+			buildPhases = (
+				087A2BBD1E4650CA00FBB205 /* Sources */,
+				087A2BBE1E4650CA00FBB205 /* Frameworks */,
+				087A2BBF1E4650CA00FBB205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikeOregon;
+			productName = HikeOregon;
+			productReference = 087A2BC11E4650CA00FBB205 /* HikeOregon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		087A2BD41E4650CB00FBB205 /* HikeOregonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087A2BEC1E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregonTests" */;
+			buildPhases = (
+				087A2BD11E4650CB00FBB205 /* Sources */,
+				087A2BD21E4650CB00FBB205 /* Frameworks */,
+				087A2BD31E4650CB00FBB205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087A2BD71E4650CB00FBB205 /* PBXTargetDependency */,
+			);
+			name = HikeOregonTests;
+			productName = HikeOregonTests;
+			productReference = 087A2BD51E4650CB00FBB205 /* HikeOregonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		087A2BDF1E4650CB00FBB205 /* HikeOregonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087A2BEF1E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregonUITests" */;
+			buildPhases = (
+				087A2BDC1E4650CB00FBB205 /* Sources */,
+				087A2BDD1E4650CB00FBB205 /* Frameworks */,
+				087A2BDE1E4650CB00FBB205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087A2BE21E4650CB00FBB205 /* PBXTargetDependency */,
+			);
+			name = HikeOregonUITests;
+			productName = HikeOregonUITests;
+			productReference = 087A2BE01E4650CB00FBB205 /* HikeOregonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087A2BB91E4650CA00FBB205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hike;
+				TargetAttributes = {
+					087A2BC01E4650CA00FBB205 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YP6LAQGWJ4;
+						ProvisioningStyle = Automatic;
+					};
+					087A2BD41E4650CB00FBB205 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YP6LAQGWJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 087A2BC01E4650CA00FBB205;
+					};
+					087A2BDF1E4650CB00FBB205 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YP6LAQGWJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 087A2BC01E4650CA00FBB205;
+					};
+				};
+			};
+			buildConfigurationList = 087A2BBC1E4650CA00FBB205 /* Build configuration list for PBXProject "HikeOregon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 087A2BB81E4650CA00FBB205;
+			productRefGroup = 087A2BC21E4650CA00FBB205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087A2BC01E4650CA00FBB205 /* HikeOregon */,
+				087A2BD41E4650CB00FBB205 /* HikeOregonTests */,
+				087A2BDF1E4650CB00FBB205 /* HikeOregonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087A2BBF1E4650CA00FBB205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A2BCF1E4650CA00FBB205 /* LaunchScreen.storyboard in Resources */,
+				087A2BCC1E4650CA00FBB205 /* Assets.xcassets in Resources */,
+				087A2BCA1E4650CA00FBB205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BD31E4650CB00FBB205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BDE1E4650CB00FBB205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087A2BBD1E4650CA00FBB205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086221011E465FBF008B8036 /* TestViewController.swift in Sources */,
+				086221091E466CA9008B8036 /* UIView+HikeOregon.swift in Sources */,
+				087A2BC71E4650CA00FBB205 /* ViewController.swift in Sources */,
+				086220FE1E46586E008B8036 /* Tappable.swift in Sources */,
+				087A2BC51E4650CA00FBB205 /* AppDelegate.swift in Sources */,
+				086221041E4662B3008B8036 /* PopAnimator.swift in Sources */,
+				086221061E466B7A008B8036 /* BackButton.swift in Sources */,
+				0862210B1E46706B008B8036 /* HOButton.swift in Sources */,
+				087A2BF41E46513F00FBB205 /* MenuButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BD11E4650CB00FBB205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A2BDA1E4650CB00FBB205 /* HikeOregonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A2BDC1E4650CB00FBB205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A2BE51E4650CB00FBB205 /* HikeOregonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		087A2BD71E4650CB00FBB205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087A2BC01E4650CA00FBB205 /* HikeOregon */;
+			targetProxy = 087A2BD61E4650CB00FBB205 /* PBXContainerItemProxy */;
+		};
+		087A2BE21E4650CB00FBB205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087A2BC01E4650CA00FBB205 /* HikeOregon */;
+			targetProxy = 087A2BE11E4650CB00FBB205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		087A2BC81E4650CA00FBB205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A2BC91E4650CA00FBB205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087A2BCD1E4650CA00FBB205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A2BCE1E4650CA00FBB205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		087A2BE71E4650CB00FBB205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		087A2BE81E4650CB00FBB205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087A2BEA1E4650CB00FBB205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		087A2BEB1E4650CB00FBB205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		087A2BED1E4650CB00FBB205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikeOregon.app/HikeOregon";
+			};
+			name = Debug;
+		};
+		087A2BEE1E4650CB00FBB205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikeOregon.app/HikeOregon";
+			};
+			name = Release;
+		};
+		087A2BF01E4650CB00FBB205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HikeOregon;
+			};
+			name = Debug;
+		};
+		087A2BF11E4650CB00FBB205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YP6LAQGWJ4;
+				INFOPLIST_FILE = HikeOregonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hike.HikeOregonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HikeOregon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087A2BBC1E4650CA00FBB205 /* Build configuration list for PBXProject "HikeOregon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A2BE71E4650CB00FBB205 /* Debug */,
+				087A2BE81E4650CB00FBB205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087A2BE91E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A2BEA1E4650CB00FBB205 /* Debug */,
+				087A2BEB1E4650CB00FBB205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087A2BEC1E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A2BED1E4650CB00FBB205 /* Debug */,
+				087A2BEE1E4650CB00FBB205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087A2BEF1E4650CB00FBB205 /* Build configuration list for PBXNativeTarget "HikeOregonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A2BF01E4650CB00FBB205 /* Debug */,
+				087A2BF11E4650CB00FBB205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 087A2BB91E4650CA00FBB205 /* Project object */;
+}
